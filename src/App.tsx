@@ -125,7 +125,7 @@ function App() {
             ["About", "#about"],
             ["Projects", "#projects"],
             ["Skills", "#skills"],
-            ["Contact", "#contact"],
+            //["Contact", "#contact"],
           ].map(([label, href]) => (
             <a key={label} href={href} onClick={closeMenu}>
               {label}
